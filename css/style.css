@@ -2353,8 +2353,8 @@ table {
 
 @font-face {
     font-family: "Relay Cond Light";
-    src: url(relay-cond-light.eot);
-    src: url(relay-cond-light.eot.1) format("embedded-opentype"), url(relay-cond-light.woff) format("woff"), url(relay-cond-light.ttf) format("truetype"), url(relay-cond-light.svg) format("svg");
+    src: url(../relay-cond-light.eot);
+    src: url(../relay-cond-light.eot.1) format("embedded-opentype"), url(../relay-cond-light.woff) format("woff"), url(../relay-cond-light.ttf) format("truetype"), url(.//relay-cond-light.svg) format("svg");
     font-style: normal !important;
     font-weight: 400 !important
 }
