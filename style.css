@@ -3328,7 +3328,10 @@ body.channel .header-nav {
 	width:11em;
 	height:8.5em;
 	transition:all .5s ease;
-	
+
+}
+.righttxt p {
+	text-align: justify !important;
 }
 .header-nav-logo span {
 	width:0;

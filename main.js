@@ -1,10 +1,12 @@
 $( document ).ready(function() {
     $(window).scroll(function(){
-        if ( $(this).scrollTop() > 1 ) {
+        if ( $(this).scrollTop() > 0 ) {
             $('body').addClass('header-active');
         } else {
             $('body').removeClass('header-active');
         }
     });
-    $('#sidebar').scrollToFixed({marginTop: 43});
+    $('.header-nav-primary-more').hover(
+        function(){ $(this).toggleClass('hover-active')
+     });
 });
